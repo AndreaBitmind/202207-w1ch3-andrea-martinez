@@ -4,10 +4,21 @@ html {
 
 h1 {
   color: darkorange;
-  font-size: x-large;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: nowrap;
 }
 
 @media(min-width: 1000px) {
-  color: darkorange;
-  font-size: x-large; 
+  h1 {
+    color: darkorange;
+    font-size: x-large; 
+  }
 }
+
+h2 {
+  font-size: xx-large
+}
+
